@@ -1,9 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import SeasonDisplay from './components/SeasonDisplay';
+
 
 const App=()=>{
-  return(<h1>Hello</h1>);
+  return(<div>
+    <p>Hello</p>
+    <SeasonDisplay />
+  </div>);
 }
 
 ReactDOM.render(
