@@ -5,6 +5,14 @@ import SeasonDisplay from './components/SeasonDisplay';
 
 
 const App=()=>{
+
+  window.navigator.geolocation.getCurrentPosition(
+    (position)=>{
+      console.log(position);
+    },(error)=>{
+      console.log(error);
+    }
+  );
   return(<div>
     <p>Hello</p>
     <SeasonDisplay />
