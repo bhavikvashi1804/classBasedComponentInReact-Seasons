@@ -26,10 +26,29 @@ class App extends React.Component {
 
   //each Class component must have render method
   render() {
-    return (<div>
-    <p>Latitude:{this.state.lat}</p>
-    <p>Error: {this.state.errorMsg}</p>
-    </div>);
+    
+    if(this.state.errorMsg && !this.state.lat){
+      return (
+        <div>
+          Error: {this.state.errorMsg}
+        </div>
+      );
+    }
+    else if(!this.state.errorMsg && this.state.lat){
+      return (
+        <div>
+          Latitude: {this.state.lat}
+        </div>
+      );
+    }
+    else{
+      return (
+        <div>
+          Loading
+        </div>
+      );
+    }
+    
   }
 }
 
