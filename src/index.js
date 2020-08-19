@@ -6,7 +6,7 @@ import SeasonDisplay from "./components/SeasonDisplay";
 class App extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { lat: null };
+    this.state = { lat: null, errorMsg:'' };
     window.navigator.geolocation.getCurrentPosition(
       (position) => {
         //console.log(position);
@@ -16,14 +16,20 @@ class App extends React.Component {
         });
       },
       (error) => {
-        console.log(error);
+        this.setState({
+          errorMsg:error.message,
+        });
+        //if we update errorMsg then it does not mean that it removes the lat
       }
     );
   }
 
   //each Class component must have render method
   render() {
-    return <div>Latitude:{this.state.lat}</div>;
+    return (<div>
+    <p>Latitude:{this.state.lat}</p>
+    <p>Error: {this.state.errorMsg}</p>
+    </div>);
   }
 }
 
