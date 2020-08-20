@@ -24,6 +24,24 @@ class App extends React.Component {
     );
   }
 
+  componentDidMount(){
+    //used when we want load the data once at the time of component created
+    //only called one time
+    //when your component load first time
+    console.log('My component was render on screen');
+  }
+
+
+  componentDidUpdate(){
+    //any time when your component get updated 
+    console.log('Component get updated');
+    //after this react automatically called render() method
+  }
+
+  componentWillUnmount(){
+    //clean up process
+  }
+
   //each Class component must have render method
   render() {
     
