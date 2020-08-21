@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "//classBasedComponentInReact-Seasons/static/css/main.fd64f7b4.chunk.css",
-    "main.js": "//classBasedComponentInReact-Seasons/static/js/main.b8bf72fe.chunk.js",
-    "main.js.map": "//classBasedComponentInReact-Seasons/static/js/main.b8bf72fe.chunk.js.map",
-    "runtime-main.js": "//classBasedComponentInReact-Seasons/static/js/runtime-main.4b40e1e6.js",
-    "runtime-main.js.map": "//classBasedComponentInReact-Seasons/static/js/runtime-main.4b40e1e6.js.map",
-    "static/js/2.bdc50434.chunk.js": "//classBasedComponentInReact-Seasons/static/js/2.bdc50434.chunk.js",
-    "static/js/2.bdc50434.chunk.js.map": "//classBasedComponentInReact-Seasons/static/js/2.bdc50434.chunk.js.map",
-    "index.html": "//classBasedComponentInReact-Seasons/index.html",
-    "precache-manifest.81599a61d5bfd2b7de40d772367c5675.js": "//classBasedComponentInReact-Seasons/precache-manifest.81599a61d5bfd2b7de40d772367c5675.js",
-    "service-worker.js": "//classBasedComponentInReact-Seasons/service-worker.js",
-    "static/css/main.fd64f7b4.chunk.css.map": "//classBasedComponentInReact-Seasons/static/css/main.fd64f7b4.chunk.css.map",
-    "static/js/2.bdc50434.chunk.js.LICENSE.txt": "//classBasedComponentInReact-Seasons/static/js/2.bdc50434.chunk.js.LICENSE.txt"
+    "main.css": "/classBasedComponentInReact-Seasons/static/css/main.fd64f7b4.chunk.css",
+    "main.js": "/classBasedComponentInReact-Seasons/static/js/main.b8bf72fe.chunk.js",
+    "main.js.map": "/classBasedComponentInReact-Seasons/static/js/main.b8bf72fe.chunk.js.map",
+    "runtime-main.js": "/classBasedComponentInReact-Seasons/static/js/runtime-main.d8f78b56.js",
+    "runtime-main.js.map": "/classBasedComponentInReact-Seasons/static/js/runtime-main.d8f78b56.js.map",
+    "static/js/2.bdc50434.chunk.js": "/classBasedComponentInReact-Seasons/static/js/2.bdc50434.chunk.js",
+    "static/js/2.bdc50434.chunk.js.map": "/classBasedComponentInReact-Seasons/static/js/2.bdc50434.chunk.js.map",
+    "index.html": "/classBasedComponentInReact-Seasons/index.html",
+    "precache-manifest.f0c1ee5119bf2582bafac3cf6b3a2736.js": "/classBasedComponentInReact-Seasons/precache-manifest.f0c1ee5119bf2582bafac3cf6b3a2736.js",
+    "service-worker.js": "/classBasedComponentInReact-Seasons/service-worker.js",
+    "static/css/main.fd64f7b4.chunk.css.map": "/classBasedComponentInReact-Seasons/static/css/main.fd64f7b4.chunk.css.map",
+    "static/js/2.bdc50434.chunk.js.LICENSE.txt": "/classBasedComponentInReact-Seasons/static/js/2.bdc50434.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.4b40e1e6.js",
+    "static/js/runtime-main.d8f78b56.js",
     "static/js/2.bdc50434.chunk.js",
     "static/css/main.fd64f7b4.chunk.css",
     "static/js/main.b8bf72fe.chunk.js"
